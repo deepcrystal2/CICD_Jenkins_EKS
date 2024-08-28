@@ -3,16 +3,6 @@ variable "aws_region" {
   type = string
 }
 
-variable "backend_jenkins_bucket" {
-  description = "S3 bucket where jenkins terraform state file will be stored"
-  type = string
-}
-
-variable "backend_jenkins_bucket_key" {
-  description = "bucket key for the jenkins terraform state file"
-  type = string
-}
-
 variable "vpc_name" {
   description = "VPC Name for Jenkins Server VPC"
   type        = string
@@ -28,17 +18,27 @@ variable "public_subnets" {
   type        = list(string)
 }
 
+variable "private_subnets" {
+  description = "Subnets CIDR range"
+  type        = list(string)
+}
+
+variable "eks_cluster_name" {
+  description = "EKS Cluster name"
+  type        = string
+}
+
+variable "capacity_type" {
+  description = "capacity type for node"
+  type        = string
+}
+
+variable "eks_cluster_version" {
+  description = "EKS Cluster Version"
+  type        = string
+}
+
 variable "instance_type" {
-  description = "Instance Type"
-  type        = string
-}
-
-variable "jenkins_security_group" {
-  description = "Jenkins Security Group Name"
-  type        = string
-}
-
-variable "jenkins_ec2_instance" {
-  description = "Instance Name"
-  type        = string
+  description = "EKS Node Instance Type"
+  type        = list(string)
 }
