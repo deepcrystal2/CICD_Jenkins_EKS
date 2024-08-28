@@ -1,6 +1,3 @@
-# We'll be using publicly available modules for creating different services instead of resources
-# https://registry.terraform.io/browse/modules?provider=aws
-
 # Creating a VPC
 module "vpc" {
   source = "terraform-aws-modules/vpc/aws"
