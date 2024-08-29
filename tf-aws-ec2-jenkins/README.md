@@ -44,5 +44,5 @@
 
 | Name | Description |
 |------|-------------|
-| <a name="output_ec2_instance_ip"></a> [ec2\_instance\_ip](#output\_ec2\_instance\_ip) | n/a |
+| <a name="output_ec2_instance_ip"></a> [ec2\_instance\_ip](#output\_ec2\_instance\_ip) | The public IP address of jenkins server instance. |
 <!-- END_TF_DOCS -->
