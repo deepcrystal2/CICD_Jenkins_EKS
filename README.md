@@ -1,33 +1,37 @@
-# CI/CD Pipeline using Jenkins and Terraform for AWS EKS
+# EKS 환경에서 Jenkins를 활용한 CI/CD 파이프라인 구성 (Feat.Terraform)
+
+1. Terraform 원격 백엔드 상태저장용 S3 버킷 생성 
+   
+
+2. Terraform 동시작업 방지용 DynamoDB Lock 테이블 생성
+
+ > tf-backend-s3
+
+3. Terraform 활용 EC2상 Jenkins 서버 생성 -->
+   (툴: Jenkins, git, Terraform and Kubectl)
+
+> tf-aws-ec2-jenkins
+
+4. Jenkins 서버 설정
 
 
-1. Create Private S3 bucket for storing Terraform Remote State files --> jylee-terraform-cicd-jenkins
+5. Terraform 활용 EKS 클러스터 생성
+
+> tf-aws-eks
 
 
-2. Create DynamoDB Lock table to prevent concurrent terraform tasks
+6. EKS 배포 환경을 위한 Jenkins 파이프라인 내 스테이지 설정
 
 
-3. Create Jenkins Server on EC2 using tools - Jenkins, git, Terraform and Kubectl
+7. 기본적인 Nginx 애플리케이션 배포를 위한 매니패스트 파일(Deployment.yaml, Service.yaml) 생성
 
 
-4. Configure Jenkins Server
+8. Nginx 애플리케이션 배포를 위한 Jenkins 파이프라인 내 스테이지 추가
 
 
-5. Create Terraform configuration files for EKS Cluster in private VPC
+9. Jenkins 파이프라인 실행
 
 
-6. Add stages in the Jenkins pipeline for terraform init, plan and apply for EKS cluster
-
-
-7. Create Manifest files - Deployment.yaml and Service.yaml for Nginx application
-
-
-8. Add another stage in the jenkins pipeline to apply Nginx manifest files
-
-
-9. Run pipeline
-
-
-### Architecture
+## Architecture
 
 ![]()
