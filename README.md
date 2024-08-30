@@ -34,4 +34,4 @@
 
 ## Architecture
 
-![]()
+![](https://github.com/deepcrystal2/CICD_Jenkins_EKS/blob/main/eks_cluster.drawio.png)
