@@ -32,6 +32,15 @@
 9. Jenkins 파이프라인 실행 및 배포 이상여부 확인
 
 
+10. Helm 활용 Prometheus, Grafana 설치
+
+
+11. Prometheus & Grafana Service expose
+
+
+12. Grafana Template Dashboard import  
+
+
 ## Architecture
 
 ![](https://github.com/deepcrystal2/CICD_Jenkins_EKS/blob/main/eks_cluster.drawio.png)
