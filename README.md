@@ -35,7 +35,7 @@
 10. Helm 활용 Prometheus, Grafana 설치
 
 
-11. Prometheus & Grafana LoadBalancer로 Service expose
+11. Prometheus & Grafana LoadBalancer Type으로 Service expose
 
 
 12. Grafana Template 활용 Dashboard 세팅
