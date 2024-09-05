@@ -46,4 +46,5 @@
 ![](https://github.com/deepcrystal2/CICD_Jenkins_EKS/blob/main/eks_cluster.drawio.png)
 
 
-## [Hands-On] (https://github.com/deepcrystal2/CICD_Jenkins_EKS/blob/main/eks_cluster.drawio.png](https://techblog.deepcrystal2.site/AWS-EKS-66cd522f23134dd499676e62c05590b4)
+## Hands-On 
+[EKS 활용 CI/CD 파이프라인 구축 실습](https://github.com/deepcrystal2/CICD_Jenkins_EKS/blob/main/eks_cluster.drawio.png](https://techblog.deepcrystal2.site/AWS-EKS-66cd522f23134dd499676e62c05590b4)
