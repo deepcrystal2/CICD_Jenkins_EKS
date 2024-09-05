@@ -32,13 +32,10 @@
 9. Jenkins 파이프라인 실행 및 배포 이상여부 확인
 
 
-10. Helm 활용 Prometheus, Grafana 설치
+10. Helm 활용 Prometheus, Grafana 설치 및 Service expose
 
 
-11. Prometheus & Grafana LoadBalancer Type으로 Service expose
-
-
-12. Grafana Template 활용 Dashboard 세팅
+11. Grafana Template 활용 Dashboard 세팅
 
 
 ## Architecture
