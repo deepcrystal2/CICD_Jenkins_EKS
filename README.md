@@ -35,12 +35,17 @@
 10. Helm 활용 Prometheus, Grafana 설치
 
 
-11. Prometheus & Grafana Service expose
+11. Prometheus & Grafana LoadBalancer로 Service expose
 
 
-12. Grafana Template Dashboard import  
+12. Grafana Template 활용 Dashboard 세팅
 
 
 ## Architecture
 
 ![](https://github.com/deepcrystal2/CICD_Jenkins_EKS/blob/main/eks_cluster.drawio.png)
+
+
+## Hands-On
+![실습과정]([https://github.com/deepcrystal2/CICD_Jenkins_EKS/blob/main/eks_cluster.drawio.png](https://techblog.deepcrystal2.site/AWS-EKS-66cd522f23134dd499676e62c05590b4))
+
